@@ -6,7 +6,7 @@ package:
 
 source:
   fn: vcrpy-{{ version }}.tar.gz
-  url: https://pypi.python.org/packages/source/v/vcrpy/vcrpy-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/v/vcrpy/vcrpy-{{ version }}.tar.gz
   md5: 27fde8879e74e670fe9142a195249f2a
 
 build:
