@@ -6,12 +6,12 @@ package:
 
 source:
   fn: vcrpy-{{ version }}.tar.gz
-  url: https://pypi.python.org/packages/source/v/vcrpy/vcrpy-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/v/vcrpy/vcrpy-{{ version }}.tar.gz
   md5: 27fde8879e74e670fe9142a195249f2a
 
 build:
-  script: python setup.py install
-  number: 1
+  script: python setup.py install --single-version-externally-managed --record record.txt
+  number: 2
 
 requirements:
   build:
@@ -20,16 +20,16 @@ requirements:
     - pyyaml
     - wrapt
     - six >=1.5
-    - mock # [py27]
-    - contextlib2 # [py27]
+    - mock  # [py27]
+    - contextlib2  # [py27]
 
   run:
     - python
     - pyyaml
     - wrapt
     - six >=1.5
-    - mock # [py27]
-    - contextlib2 # [py27]
+    - mock  # [py27]
+    - contextlib2  # [py27]
 
 test:
   # Python imports
