@@ -1,4 +1,4 @@
-{% set version = "1.7.4" %}
+{% set version = "1.10.3" %}
 
 package:
   name: vcrpy
@@ -7,7 +7,7 @@ package:
 source:
   fn: vcrpy-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/v/vcrpy/vcrpy-{{ version }}.tar.gz
-  md5: 27fde8879e74e670fe9142a195249f2a
+  sha256: b2c76736999d81d5321b94d997e3480ffbde8fe56d918eb2798d0e0545cb9f21
 
 build:
   script: python setup.py install --single-version-externally-managed --record record.txt
