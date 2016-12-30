@@ -41,8 +41,12 @@ test:
 
 about:
   home: https://github.com/kevin1024/vcrpy
-  license: MIT License
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE.txt
   summary: 'Automatically mock your HTTP interactions to simplify and speed up testing'
+  dev_url: https://github.com/kevin1024/vcrpy
+  doc_url: https://vcrpy.readthedocs.io/
 
 extra:
   recipe-maintainers:
