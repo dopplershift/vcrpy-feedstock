@@ -11,6 +11,18 @@ Summary: Automatically mock your HTTP interactions to simplify and speed up test
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/vcrpy-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/vcrpy-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/vcrpy-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/vcrpy-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/vcrpy-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/vcrpy-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/vcrpy/badges/version.svg)](https://anaconda.org/conda-forge/vcrpy)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/vcrpy/badges/downloads.svg)](https://anaconda.org/conda-forge/vcrpy)
+
 Installing vcrpy
 ================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `vcrpy` available on your platform
 ```
 conda search vcrpy --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/vcrpy-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/vcrpy-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/vcrpy-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/vcrpy-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/vcrpy-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/vcrpy-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/vcrpy/badges/version.svg)](https://anaconda.org/conda-forge/vcrpy)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/vcrpy/badges/downloads.svg)](https://anaconda.org/conda-forge/vcrpy)
 
 
 Updating vcrpy-feedstock
