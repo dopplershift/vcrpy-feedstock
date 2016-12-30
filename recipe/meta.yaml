@@ -1,13 +1,15 @@
+{% set name = "vcrpy" %}
 {% set version = "1.10.3" %}
+{% set sha256 = "b2c76736999d81d5321b94d997e3480ffbde8fe56d918eb2798d0e0545cb9f21" %}
 
 package:
-  name: vcrpy
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: vcrpy-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/v/vcrpy/vcrpy-{{ version }}.tar.gz
-  sha256: b2c76736999d81d5321b94d997e3480ffbde8fe56d918eb2798d0e0545cb9f21
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
 
 build:
   script: python setup.py install --single-version-externally-managed --record record.txt
