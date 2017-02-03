@@ -3,7 +3,7 @@ About vcrpy
 
 Home: https://github.com/kevin1024/vcrpy
 
-Package license: MIT License
+Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
