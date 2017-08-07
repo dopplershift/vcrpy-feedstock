@@ -1,6 +1,6 @@
 {% set name = "vcrpy" %}
-{% set version = "1.11.0" %}
-{% set sha256 = "beb30de89c3618482ea76662b4135d48fef7417589df49c303b2e85db40c9705" %}
+{% set version = "1.11.1" %}
+{% set sha256 = "f434fe7e05d940d576ac850709ae57a738ba40e7f317076ea8d359ced5b32320" %}
 
 package:
   name: {{ name|lower }}
